@@ -2,12 +2,13 @@ Source: rtl8821ce-dkms
 Section: kernel
 Priority: optional
 Maintainer: Torsten Wohlfarth <towo@siduction.org>
-Build-Depends: 
- debhelper (>= 11), 
- dkms,
-Standards-Version: 4.1.3
+Uploaders: Alf Gaida <agaida@siduction.org>
+Build-Depends: debhelper-compat (= 12), 
+               dkms
+Standards-Version: 4.3.0
 
 Package: rtl8821ce-dkms
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends},
+         ${misc:Depends}
 Description: dkms source for the rtl8821ce network driver
