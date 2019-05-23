@@ -1,0 +1,9 @@
+debian/debhelper-build-stamp
+debian/files
+debian/*.log
+debian/*.debhelper
+debian/*.substvars
+
+debian/.debhelper/
+debian/rtl8821ce-dkms/
+
