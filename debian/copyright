@@ -1,28 +1,22 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: rtl8821ce
 Source: https://github.com/endlessm/linux
-Disclaimer:
- This package is not part of the GNU/Linux Debian distribution. It is
- provided in the free archive area as a convenience to Debian users.
- The contents of this source package are freely licensed under the GPL-2.0+
- license, but it seems to apply binary patches to firmware, making the
- package unfit for main.
 
-Files: src/
-Copyright: Copyright(c) 2007-2018 Realtek Semiconductor Corp. All rights reserved.
-           Copyright (C) 2018  Realtek NIC software team <nicfae@realtek.com>
-License: GPL-2.0+
+Files: *
+Copyright: 2008, RealTEK Technology Inc. All Right Reserved
+           2007-2016, Realtek Corporation
+           Realtek Semiconductor Corp
+License: GPL-2
 
 Files: debian/*
-Copyright: © 2011-2018 Andreas Beckmann <anbe@debian.org>
-           © 2011-2012 Dmitry Smirnov <onlyjob@member.fsf.org>
-License: GPL-2.0+
+Copyright: 2019 Alf Gaida <anbe@debian.org>
+           2019 Torsten Wohlfarth <towo@siduction.org>
+License: GPL-2
 
-License: GPL-2.0+
+License: GPL-2
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
- the Free Software Foundation; either version 2 of the License, or
- (at your option) any later version.
+ the Free Software Foundation version 2 of the License.
  .
  This package is distributed in the hope that it will be useful,
  but WITHOUT ANY WARRANTY; without even the implied warranty of

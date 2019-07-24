@@ -5,7 +5,7 @@ Maintainer: Torsten Wohlfarth <towo@siduction.org>
 Uploaders: Alf Gaida <agaida@siduction.org>
 Build-Depends: debhelper-compat (= 12), 
                dkms
-Standards-Version: 4.3.0
+Standards-Version: 4.4.0
 
 Package: rtl8821ce-dkms
 Architecture: all
