@@ -1,3 +1,11 @@
+rtl8821ce-dkms (5.5.2-1.34066.20190615) unstable; urgency=medium
+
+  * [upstream] sorce version is now v5.5.2_34066.20190614; from https://github.com/tomaspinho/rtl8821ce
+  * [upstream] Fixes for Linux 5.3
+  * [upstream] Enable CONFIG_DFS for RTL8821CE adapters, to support 5Ghz bands only
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Sun, 25 Aug 2019 19:22:45 +0200
+
 rtl8821ce-dkms (5.2.5-1.26055.20180108.1) unstable; urgency=medium
 
   * Initial Release.
