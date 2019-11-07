@@ -7,6 +7,7 @@ EXTRA_CFLAGS += -O1
 #EXTRA_CFLAGS += -pedantic
 #EXTRA_CFLAGS += -Wshadow -Wpointer-arith -Wcast-qual -Wstrict-prototypes -Wmissing-prototypes
 
+EXTRA_CFLAGS += -Wno-vla
 EXTRA_CFLAGS += -Wno-unused-variable
 EXTRA_CFLAGS += -Wno-unused-value
 EXTRA_CFLAGS += -Wno-unused-label
@@ -20,7 +21,11 @@ ifeq ($(GCC_VER_49),1)
 EXTRA_CFLAGS += -Wno-date-time	# Fix compile error && warning on gcc 4.9 and later
 endif
 
-export TopDIR ?= $(shell pwd)
+ifneq (,$(findstring /usr/lib/dkms,$(PATH)))
+    export TopDIR ?= $(shell pwd)
+else
+    export TopDIR ?= $(srctree)/$(src)
+endif
 
 EXTRA_CFLAGS += -I$(TopDIR)/include
 
@@ -84,7 +89,7 @@ CONFIG_RTW_REPEATER_SON = n
 CONFIG_RTW_WIFI_HAL = n
 CONFIG_ICMP_VOQ = n
 ########################## Debug ###########################
-CONFIG_RTW_DEBUG = y
+CONFIG_RTW_DEBUG = n
 # default log level is _DRV_INFO_ = 4,
 # please refer to "How_to_set_driver_debug_log_level.doc" to set the available level.
 CONFIG_RTW_LOG_LEVEL = 4

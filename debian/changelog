@@ -1,3 +1,10 @@
+rtl8821ce-dkms (5.5.2-3.34066.20190615) unstable; urgency=medium
+
+  * fix the wrong version number
+  * all upstream changes included from https://github.com/tomaspinho/rtl8821ce
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Thu, 07 Nov 2019 09:42:50 +0100
+
 rtl8821ce-dkms (5.5.2-1.34066.20190615) unstable; urgency=medium
 
   * [upstream] sorce version is now v5.5.2_34066.20190614; from https://github.com/tomaspinho/rtl8821ce
