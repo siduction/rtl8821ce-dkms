@@ -1,6 +1,7 @@
-rtl8821ce-dkms (5.5.2-4.34066.20190615) unstable; urgency=medium
+rtl8821ce-dkms (5.5.2-4-siduction.1) unstable; urgency=medium
 
   * update changes from https://github.com/tomaspinho/rtl8821ce
+  * changed version numer, the long number was a stupid idea of me
 
  -- Torsten Wohlfarth <towo@siduction.org>  Mon, 30 Dec 2019 12:24:54 +0100
 
