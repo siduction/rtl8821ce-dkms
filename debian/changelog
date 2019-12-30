@@ -1,5 +1,11 @@
 rtl8821ce-dkms (5.5.2-3.34066.20190615) unstable; urgency=medium
 
+  * update changes from https://github.com/tomaspinho/rtl8821ce
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Mon, 30 Dec 2019 12:24:54 +0100
+
+rtl8821ce-dkms (5.5.2-3.34066.20190615) unstable; urgency=medium
+
   * fix the wrong version number
   * all upstream changes included from https://github.com/tomaspinho/rtl8821ce
 
